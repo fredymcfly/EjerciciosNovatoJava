@@ -9,7 +9,6 @@ public class Main {
         * MULTIPLICACIÓN        (>= MAYOR O IGUAL, <= MENOR O IGUAL)     ! (NOT) NEGACION INVIERTE EL RESUSLTADO, DEVUELVE FALSO SI EL OPRADOR ES TRUE.
         / DIVISIÓN              != DISTINTO
 
-
         int num1, num2 , resultado; // AQUI GENERAMOS VARIABLES
 
         num1 = 4; //  Les damos valor a las variables.
@@ -25,7 +24,6 @@ public class Main {
         POR EJEMPLO: SI UNA VARIABLE NUMERO VALE 35, Y UNA VARIABLE NUMERO2 VALE 20 , REALIZA LAS ACCIONES NECESARIAS
         PARA QUE NUMERO PASE A SER 20 Y NUMERO2 PASE A VALER 35. UNA VEZ REALIZADO EL CAMBIO  MOSTRAR EL RESULTADO
         POR PANTALLA.
-
 
         int num1 =35;
         int num2 = 20;
@@ -59,12 +57,8 @@ public class Main {
           Se necesista un programa , que dependiendo del tipo de empleado del que se trate, calcule y muestre en pantalla el
           correspondiente sueldo.
 
-
-
         Scanner lector = new Scanner(System.in);
-
         System.out.println("Introduce el tipo de empleado 1-Reponedor, 2-Cajero , 3-Supervisor");
-
         int tipoEmpleado=lector.nextInt(); // tipo de empleado seria la palabra clave que almacena los 3 casos que tendemos y donde se realiza los calculos
 
         if (tipoEmpleado== 1) {
@@ -97,7 +91,6 @@ public class Main {
      // condicional    / ? operador ternarosio   : y separador de condiciones
       notaFinal= media>=6 ? "Aprobado" : "Suspenso";
         System.out.println("La nota final del alumno es: "+ notaFinal);
-
  */
 // ----------------------------------------------- SIGUIENTE EJERCICIO-------------------------------------------------------------------------------------
 /*
