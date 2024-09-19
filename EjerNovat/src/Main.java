@@ -123,8 +123,6 @@ public class Main {
     cálculos,se desea motrar las 3 notas de casa alumno y el promedio correpondiente recorriendo
     la matriz.
 
-
-
         double matriz[][] = new double[4][4];// tengo la tabla hecha
         Scanner lector = new Scanner(System.in);
         double suma = 0.0;
@@ -160,7 +158,6 @@ public class Main {
 
     paso 3º centinela
 
-
         Scanner lector = new Scanner(System.in);
         System.out.println("introduce cualquier palabra");
         String palabra = lector.next();
@@ -169,7 +166,6 @@ public class Main {
             System.out.println(" Ingrese cualquier palabra ");
             palabra=lector.next();
         }
-
      */
     }
 }
